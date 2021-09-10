@@ -39,15 +39,15 @@ services:
       - ./crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/msp:/var/hyperledger/orderer/msp
       - ./crypto-config/ordererOrganizations/example.com/orderers/orderer.example.com/tls:/var/hyperledger/orderer/tls
     extra_hosts:
-      - "orderer.example.com:3.144.76.245"
-      - "orderer2.example.com:3.144.76.245"
-      - "orderer3.example.com:3.144.76.245"
-      - "peer0.org1.example.com:18.116.238.28"
-      - "peer1.org1.example.com:18.116.238.28"
-      - "peer0.org2.example.com:18.220.62.169"
-      - "peer1.org2.example.com:18.220.62.169"
-      - "peer0.org3.example.com:52.15.78.162"
-      - "peer1.org3.example.com:52.15.78.162"
+      - "orderer.example.com:3.137.160.81"
+      - "orderer2.example.com:3.137.160.81"
+      - "orderer3.example.com:3.137.160.81"
+      - "peer0.org1.example.com:3.142.130.65"
+      - "peer1.org1.example.com:3.142.130.65"
+      - "peer0.org2.example.com:3.144.7.116"
+      - "peer1.org2.example.com:3.144.7.116"
+      - "peer0.org3.example.com:3.129.210.119"
+      - "peer1.org3.example.com:3.129.210.119"
   
   orderer2.example.com:
     container_name: orderer2.example.com
@@ -84,15 +84,15 @@ services:
       - ./crypto-config/ordererOrganizations/example.com/orderers/orderer2.example.com/msp:/var/hyperledger/orderer/msp
       - ./crypto-config/ordererOrganizations/example.com/orderers/orderer2.example.com/tls:/var/hyperledger/orderer/tls
     extra_hosts:
-      - "orderer.example.com:3.144.76.245"
-      - "orderer2.example.com:3.144.76.245"
-      - "orderer3.example.com:3.144.76.245"
-      - "peer0.org1.example.com:18.116.238.28"
-      - "peer1.org1.example.com:18.116.238.28"
-      - "peer0.org2.example.com:18.220.62.169"
-      - "peer1.org2.example.com:18.220.62.169"
-      - "peer0.org3.example.com:52.15.78.162"
-      - "peer1.org3.example.com:52.15.78.162"
+      - "orderer.example.com:3.137.160.81"
+      - "orderer2.example.com:3.137.160.81"
+      - "orderer3.example.com:3.137.160.81"
+      - "peer0.org1.example.com:3.142.130.65"
+      - "peer1.org1.example.com:3.142.130.65"
+      - "peer0.org2.example.com:3.144.7.116"
+      - "peer1.org2.example.com:3.144.7.116"
+      - "peer0.org3.example.com:3.129.210.119"
+      - "peer1.org3.example.com:3.129.210.119"
 
 
   orderer3.example.com:
@@ -130,12 +130,12 @@ services:
       - ./crypto-config/ordererOrganizations/example.com/orderers/orderer3.example.com/msp:/var/hyperledger/orderer/msp
       - ./crypto-config/ordererOrganizations/example.com/orderers/orderer3.example.com/tls:/var/hyperledger/orderer/tls
     extra_hosts:
-      - "orderer.example.com:3.144.76.245"
-      - "orderer2.example.com:3.144.76.245"
-      - "orderer3.example.com:3.144.76.245"
-      - "peer0.org1.example.com:18.116.238.28"
-      - "peer1.org1.example.com:18.116.238.28"
-      - "peer0.org2.example.com:18.220.62.169"
-      - "peer1.org2.example.com:18.220.62.169"
-      - "peer0.org3.example.com:52.15.78.162"
-      - "peer1.org3.example.com:52.15.78.162"
+      - "orderer.example.com:3.137.160.81"
+      - "orderer2.example.com:3.137.160.81"
+      - "orderer3.example.com:3.137.160.81"
+      - "peer0.org1.example.com:3.142.130.65"
+      - "peer1.org1.example.com:3.142.130.65"
+      - "peer0.org2.example.com:3.144.7.116"
+      - "peer1.org2.example.com:3.144.7.116"
+      - "peer0.org3.example.com:3.129.210.119"
+      - "peer1.org3.example.com:3.129.210.119"
